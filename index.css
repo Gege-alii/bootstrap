@@ -1,0 +1,367 @@
+#Home{
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.layer1{
+    background-color:rgba(0, 0, 0, 0.579) ;
+  position:absolute ;
+     top: 0;
+     left: 0; 
+    width: 100%;
+      height:100%;
+      
+}
+.about-img{
+    overflow: hidden;
+  }
+.about-img:after {
+    content: "";
+    width: 80%;
+  
+    height: 85%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-repeat: repeat;
+    background-image: url(doot.png);
+    background-repeat: repeat;
+    z-index: -1;}
+
+.progress{
+    
+    height: 20px;
+}
+.button1{
+    text-decoration: none;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+}
+.button1:hover{
+   
+    background-color: white;
+    color: black;
+    border-width: 1px;
+} 
+.button2{
+ border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    
+}
+.button2:hover{
+    background-color: black;
+    color: white;
+    
+   
+}
+#services{
+    background-color: rgba(166, 166, 181, 0.167);
+}
+.ico-circle {
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+transition: all 0.7s;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(166, 166, 181, 0.167);
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+  .service-box:hover .ico-circle{
+        background-color: black; 
+    color: white;
+     }
+    
+     .service-ico {
+        margin-bottom: 1rem;
+        color: #1e1e1e;
+    }
+    .nav-pills .nav-link
+    {
+        color: black;
+    }
+    .nav-pills .nav-link.active{
+        background-color: rgba(166, 166, 181, 0.167);
+        color: black;
+        
+    }
+#clients .client img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+#clients .client-area img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+    .carousel-indicators [data-bs-target]{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    
+}
+.ico-circle:hover{
+    background-color: black; 
+color: white;
+ }
+ #contact textarea{
+    resize: none;
+    min-height: 120px;
+ }
+ .work-img img{
+    transition: all 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    transition-property: all;
+  }
+  figure{
+    overflow: hidden;
+  }
+  .work-img{
+    display: inline-block;
+  }
+ .work-box .work-img img{
+    display: block;
+    cursor: pointer;
+    height: auto;
+    width: 100%;
+  }
+.work-img img{
+transform: scale(1);
+transition: 1s ease-in-out;
+}
+.work-img:hover img{
+transform: scale(1.5);
+
+}
+.service-box .ico-circle1 {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;}
+.ico-circle1 {
+    height: 75px;
+    width: 75px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+
+
+}
+.ico-circle3 {
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #0078ff;}
+
+    .ico-circle2 {
+        height: 35px;
+        width: 35px;
+        font-size: 1rem;
+        border-radius: 50%;
+        line-height: 1.55;
+    transition: all 0.7s;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #0b0b1988;
+        transition: all 500ms ease;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+     
+    }
+        
+         .service-ico2 {
+            margin-bottom: 1rem;
+            color: white;
+        }
+        .dev{
+            font-size: 40px;
+        }
+        .dev::after{
+            content: '';
+            animation: type 6s infinite alternate;
+        }
+        @keyframes type{
+            0%{content: '|';}
+            2%{content: 'L|';}
+           4%{content: 'La|';}
+           6%{content: 'Lar|';}
+           8%{content: 'Larr|';}
+       10%{content: 'Larry|';}
+           12%{content: 'Larry |';}
+           14%{content: 'Larry D|';}
+           15%{content: 'Larry Da|';}
+           16%{content: 'Larry Dan|';}
+           17%{content: 'Larry Dani|';}
+           18%{content: 'Larry Danie|';}
+           19%{content: 'Larry Daniel|';}
+           20%{content: 'Larry Daniels|';}
+           21%{content: 'Larry Daniels|';}
+           22%{content: 'Larry Daniels|';}
+           24%{content: 'Larry Daniels|';}
+           26%{content: 'Larry Daniels|';}
+           28%{content: 'Larry Daniel|';}
+           30%{content: 'Larry Danie|';}
+           32%{content: 'Larry Dani|';}
+           34%{content: 'Larry Dan|';}
+           36%{content: 'Larry Da|';}
+           38%{content: 'Larry D|';}
+           40%{content: 'Larry |';}
+           42%{content: 'Larry|';}
+           44%{content: 'Larr|';}
+           45%{content: 'Lar|';}
+       46%{content: 'La|';}
+           47%{content: 'L|';}
+           48%{content: '|';}
+           49%{content: 'D|';}
+           50%{content: 'De|';}
+           51%{content: 'Dev|';}
+           52%{content: 'Deve|';}
+           54%{content: 'Devel|';}
+           55%{content: 'Develo|';}
+           56%{content: 'Develop|';}
+       57%{content: 'Develope|';}
+           58%{content: 'Developer|';}
+           59%{content: 'Developer|';}
+           60%{content: 'Developer|';}
+           62%{content: 'Developer|';}
+            63%{content: 'Developer|';}
+            64%{content: 'Developer|';}
+            66%{content: 'Developer|';}
+            68%{content: 'Develope|';}
+            70%{content: 'Develop|';}
+            71%{content: 'Develo|';}
+            72%{content: 'Devel|';}
+            74%{content: 'Deve|';}
+            75%{content: 'Dev|';}
+            76%{content: 'De|';}
+            77%{content: 'D|';}
+            78%{content: '|';}
+            79%{content: 'D|';}
+            80%{content: 'De|';}
+            81%{content: 'Des|';}
+            82%{content: 'Desi|';}
+            83%{content: 'Desig|';}
+            84%{content: 'Design|';}
+            85%{content: 'Designe|';}
+           86%{content: 'Designer|';}
+            87%{content: 'Designer|';}
+           88%{content: 'Designer|';}
+            89%{content: 'Designer|';}
+            90%{content: 'Designer|';}
+            92%{content: 'Designer|';}
+            94%{content: 'Designe|';}
+            96%{content: 'Design|';}
+            98%{content: 'Desig|';}
+            100%{content: 'Desi|';}
+            102%{content: 'Des|';}
+            104%{content: 'De|';}
+            106%{content: 'D|';}
+            108%{content: '|';}
+          
+         
+        }       
+  .form-control:focus{
+    box-shadow: none;
+    border: none;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    z-index: 4;}
+     h3:after {
+        content: "";
+        width: 80%;
+        height: 30px;
+        text-align: center;
+        
+       background-repeat: repeat;
+        background-image: url(doot.png);
+        background-repeat: repeat;
+        position: absolute;
+        bottom: 17px;
+        left: 25;
+        display: flex;
+        z-index: -1;}
+
+    #team .layer{
+        background-color: rgba(255, 255, 255, 0.681);
+        opacity: 0;
+        transition: all 1s;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        
+        
+    }
+    #team .work-img:hover .layer{
+        opacity: 1;
+
+    }
+    #team .work-box:hover .layer{
+        opacity: 1;
+    }
+    #works .layer{
+        background-color: rgba(255, 255, 255, 0.882);
+        opacity: 0;
+        transition: all 1s;
+        margin-bottom: 7px;
+        margin-left: 7px;
+        margin-right: 7px;
+        margin-top: 7px;
+        
+    }
+    #works .img:hover .layer{
+        opacity: 1.5;
+    }
+   .service-box4{
+    margin-top: 170px;
+    margin-left: 50px;
+   }
+   .service-box5{
+    margin-top: 140px;
+    margin-left: 50px;
+   }
+   .ico-circle4{
+    height: 35px;
+    width: 35px;
+    font-size: 1rem;
+    border-radius: 50%;
+    line-height: 1.55;
+transition: all 0.7s;
+  
+    text-align: center;
+    background-color: black;
+    transition: all 500ms ease;
+    display: inline-flex;
+   align-items: center;
+    justify-content: center;
+   
+    
+    color: white;
+   }
+      .ico-circle4:hover{
+      background-color: white;
+      color: black;
+    border-color: black;
+    box-shadow: 0 0 0 1px black;}
